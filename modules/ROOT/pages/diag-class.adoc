@@ -1,0 +1,21 @@
+= Antora - Doc asciidoc avec PlantUML et inclusion de fragments
+
+== 1er chapitre
+
+Voici mon contenu de chapitre
+
+Bla bla bla bla...
+
+Bla bla bla bla...
+
+
+== 2e chapitre
+
+Ci-dessous un diagramme PlantUML contenant un include `.iuml` :
+
+.Mon diagramme de classe avec externalisation de fragments
+[plantuml, format="png"]
+----
+include::example$diagramme-class.puml[]
+----
+

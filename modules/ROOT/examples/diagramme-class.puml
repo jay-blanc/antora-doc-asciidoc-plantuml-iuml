@@ -1,0 +1,9 @@
+@startuml
+
+!include class_a.iuml
+!include class_b.iuml
+
+
+ClassA "1" -- "*" ClassB : linked
+
+@enduml

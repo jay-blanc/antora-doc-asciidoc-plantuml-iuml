@@ -1,0 +1,4 @@
+class ClassB {
+  - attribute1: Long
+  - attribute2: String
+}
