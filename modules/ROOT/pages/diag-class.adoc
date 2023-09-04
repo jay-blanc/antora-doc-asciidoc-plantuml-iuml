@@ -14,8 +14,4 @@ Bla bla bla bla...
 Ci-dessous un diagramme PlantUML contenant un include `.iuml` :
 
 .Mon diagramme de classe avec externalisation de fragments
-[plantuml, format="png"]
-----
-include::example$diagramme-class.puml[]
-----
-
+plantuml::example$diagramme-class.puml[target=diagramme-class,format=png]
